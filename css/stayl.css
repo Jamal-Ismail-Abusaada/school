@@ -1,0 +1,27 @@
+@import url(navbar.css);
+@import url(d1.css);
+@import url(d4.css);
+@import url(d3.css);
+@import url(d33d.css);
+@import url(people.css);
+@import url(school.css);
+@import url(map.css);
+@import url(end.css);
+
+body {
+    transform: scale(1);
+    transform-origin: top left;
+}
+
+.img {
+    width: 1678px;
+}
+
+h1 {
+    color: white;
+}
+
+h5 {
+    margin: 40px 0px;
+    color: white;
+}

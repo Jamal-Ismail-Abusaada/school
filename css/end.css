@@ -1,0 +1,27 @@
+.end {
+    height: 240px;
+    background-color: #BDF6E3;
+    text-align: center;
+}
+
+.end h2 {
+    margin-left: 580px;
+    margin-top: 30px;
+    position: absolute;
+    color: #656565;
+    font-size: 55px;
+}
+
+.end h6 {
+    margin-left: 300px;
+    margin-top: 130px;
+    position: absolute;
+    color: #656565;
+}
+
+.fac {
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+    margin-top: 200px;
+}

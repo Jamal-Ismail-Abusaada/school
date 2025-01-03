@@ -1,0 +1,116 @@
+
+.d33{
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/Rectangle\ 18.png);
+    background-size: cover;
+}
+
+.d33d {
+    position: absolute;
+}
+
+.d33dd {
+    position: absolute;
+    display: flex;
+}
+
+
+.div-h2 {
+    color: white;
+    text-align: center;
+    margin-left: 555px;
+    margin-top: 55px;
+}
+
+.h6h {
+    color: white;
+    text-align: center;
+    margin-left: 561px;
+}
+
+.dd1d {
+    position: absolute;
+    display: flex;
+}
+
+.ddd1 {
+    margin-left: 100px;
+    display: flex;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.h5d1 {
+    margin-right: 15px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    width: 177px;
+    color: rgb(59, 56, 56);
+}
+
+.h1d1 {
+    margin-right: -177px;
+    margin-bottom: 0px;
+}
+
+
+.ddd2 {
+    margin-left: 150px;
+    display: flex;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.h1d2 {
+    margin-right: -158px;
+    margin-bottom: 0px;
+}
+
+.h5d2 {
+    margin-right: 15px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    width: 177px;
+    color: rgb(59, 56, 56);
+}
+
+.ddd3 {
+    margin-left: 175px;
+    display: flex;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.h1d3 {
+    margin-right: -177px;
+    margin-bottom: 0px;
+}
+
+.h5d3 {
+    margin-right: 15px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    width: 177px;
+    color: rgb(59, 56, 56);
+}
+
+.ddd4 {
+    margin-left: 150px;
+    display: flex;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.h1d4 {
+    margin-right: -177px;
+    margin-bottom: 0px;
+}
+
+.h5d4 {
+    margin-right: 15px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    width: 177px;
+    color: rgb(59, 56, 56);
+}

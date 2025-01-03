@@ -1,0 +1,20 @@
+.d1 {
+    width: 100%;
+    height: 525px;
+    background-image: url(../img/bgi.png);
+    background-size: cover;
+    text-align: right;
+}
+
+.bbtn {
+    padding: 12px 60px;
+    background-color: #FFF568;
+    border-radius: 40px;
+    border: none;
+}
+
+.d2 {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 150px;
+}

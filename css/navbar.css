@@ -1,0 +1,53 @@
+.navbar-brand {
+    text-align: center;
+    margin-right: 100px;
+    color: white;
+}
+
+.container-fluid {
+    background-color: #59C6BC;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.navbarr {
+    margin-right: 20px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.nav-item {
+    margin-left: 25px;
+    color: white;
+}
+
+.nav {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #59C6BC;
+    border: none;
+    margin-top: 10px;
+}
+
+.nav:hover {
+    background-color: #FFF568;
+    color: black;
+    border-radius: 25px;
+}

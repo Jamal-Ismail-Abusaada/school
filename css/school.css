@@ -1,0 +1,109 @@
+
+
+.div-school {
+    height: 700px;
+    text-align: center;
+    background-color: #EEF6F6;
+    display: flex;
+}
+
+.div-div-school-1 {
+    display: flex;
+}
+
+.div-div-school-1-1 {
+    background-color: white;
+    width: 300px;
+    height: 440px;
+    border-radius: 25px;
+    margin-top: 150px;
+    margin-left: 65px;
+}
+
+.div-div-school-1-1 button {
+    background-color: #FFF568;
+    padding: 10px 25px;
+    border-radius: 12px;
+    margin-top: 35px;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.div-div-school-1-1 .button2 {
+    background-color: #FFF568;
+    padding: 10px 55px;
+}
+
+.div-div-school-1-2 {
+    background-color: white;
+    width: 300px;
+    height: 440px;
+    border-radius: 25px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.div-div-school-1-2 h4 {
+    text-align: right;
+}
+
+.div-div-school-1 h3 {
+    border-radius: 25px;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.div-div-school-1 h6 {
+    text-align: right;
+    border-radius: 25px;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.div-div-school-2 {
+    border-radius: 25px;
+    margin-top: 150px;
+    margin-left: 75px;
+}
+
+.div-div-school-2 img {
+    height: 440px;
+    width: 100%;
+    margin-left: -60px;
+}
+
+.div-div-school-1-2 img {
+    margin-left: 274px;
+    margin-top: -88px;
+}
+
+.div-div-school-1-2 h4 {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.div-div-school-1-2 h5 {
+    text-align: right;
+    margin-bottom: 60px;
+    margin-right: 50px;
+    margin-top: -15px;
+    color: black;
+}
+
+.div-div-school-1-2-div {
+    margin-top: -23px;
+}
+
+.div-div-school-1-2-div h5 {
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-top: -29px;
+    margin-right: 50px;
+}
+
+.div-div-school-1-2-div img {
+    margin-top: -81px;
+}
