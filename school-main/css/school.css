@@ -1,0 +1,16 @@
+.contact { background: #eef6f6; padding: var(--section-space) var(--page-inset); display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: clamp(1rem, 2.5vw, 2rem); align-items: stretch; }
+.contact-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.schedule-card, .contact-card { background: white; padding: var(--card-space); border-radius: 1.5rem; overflow-wrap: anywhere; }
+.schedule-day { display: inline-block; background: var(--yellow); padding: .5rem 1rem; border-radius: .75rem; }
+.schedule-card h4, .div-div-school-1-2-div { direction: ltr; }
+.contact-card img, .contact br { display: none; }
+.school-photo img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 1.5rem; }
+.contact-card h5:last-child, .schedule-card h4:last-child { margin-block-end: 0; }
+@media (max-width: 1100px) {
+    .contact { grid-template-columns: 1fr; }
+    .school-photo img { height: auto; max-height: 420px; aspect-ratio: 16 / 9; }
+}
+@media (max-width: 600px) {
+    .contact-cards { grid-template-columns: 1fr; }
+    .school-photo img { aspect-ratio: 4 / 3; }
+}

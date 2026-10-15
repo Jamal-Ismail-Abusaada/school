@@ -1,0 +1,15 @@
+.testimonials { max-width: calc(var(--content-width) + 2 * var(--gutter)); margin: auto; padding: var(--section-space) var(--gutter); text-align: center; }
+.div-pepol-h6 { color: #237d76; }
+.testimonial-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-block-start: 1.5rem; text-align: start; }
+.testimonial { display: flex; align-items: flex-start; gap: 1rem; }
+.testimonial-card { flex: 1; background: #f9f9f9; padding: var(--card-space); border-radius: 1.5rem; }
+.img-pepol { flex: 0 0 auto; width: clamp(56px, 6vw, 80px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; }
+.div1-pepol-h6 { font-weight: bold; }
+.div1-pepol-input { display: flex; flex-wrap: wrap; gap: .8rem; font-size: .85rem; color: #555; }
+.div1-pepol-input img, .testimonials br { display: none; }
+@media (max-width: 1024px) { .testimonial-row { grid-template-columns: 1fr; } }
+@media (max-width: 600px) {
+    .testimonial { flex-direction: column-reverse; gap: .75rem; }
+    .testimonial-card { width: 100%; }
+    .div1-pepol-input { gap: .5rem 1rem; }
+}

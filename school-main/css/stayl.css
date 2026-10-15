@@ -1,0 +1,44 @@
+@import url("navbar.css");
+@import url("d1.css");
+@import url("d4.css");
+@import url("d3.css");
+@import url("d33d.css");
+@import url("people.css");
+@import url("school.css");
+@import url("map.css");
+@import url("end.css");
+
+:root {
+    --teal: #59c6bc;
+    --yellow: #fff568;
+    --text: #343434;
+    --content-width: 1200px;
+    --gutter: clamp(1rem, 4vw, 2.5rem);
+    --section-space: clamp(2.5rem, 6vw, 5rem);
+    --card-space: clamp(1rem, 2vw, 1.75rem);
+    --page-inset: max(var(--gutter), calc((100% - var(--content-width)) / 2));
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+[hidden] { display: none !important; }
+body { margin: 0; color: var(--text); font-family: Tahoma, Arial, sans-serif; line-height: 1.8; overflow-wrap: break-word; }
+h1, h2, h3, h4, h5, h6, p { margin: 0 0 1rem; }
+h1 { font-size: clamp(1.75rem, 1.15rem + 2.5vw, 3rem); line-height: 1.4; }
+h2 { font-size: clamp(1.5rem, 1.1rem + 1.5vw, 2rem); line-height: 1.5; }
+h3, h4 { font-size: clamp(1.125rem, 1rem + .5vw, 1.3rem); line-height: 1.6; }
+h5, h6 { font-size: 1rem; font-weight: normal; }
+a { color: inherit; }
+img { max-width: 100%; height: auto; }
+main, section, section div { min-width: 0; }
+section, #main-content { scroll-margin-block-start: calc(var(--nav-height, 90px) + 1rem); }
+.btn, .bbtn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; max-width: 100%; padding: .65rem 2rem; background: var(--yellow); border-radius: 2rem; color: #292929; text-decoration: none; text-align: center; }
+a:focus-visible, button:focus-visible { outline: 3px solid #153f71; outline-offset: 4px; }
+.skip-link { position: fixed; inset-block-start: -100px; inset-inline-start: 1rem; z-index: 30; padding: .5rem 1rem; background: white; }
+.skip-link:focus { inset-block-start: 1rem; }
+.back-to-top { position: fixed; inset-inline-end: var(--gutter); bottom: max(1rem, env(safe-area-inset-bottom)); z-index: 5; display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid #173b38; border-radius: 50%; background: var(--yellow); color: #173b38; font-size: 1.5rem; text-decoration: none; box-shadow: 0 3px 12px rgb(0 0 0 / 12%); }
+@media (prefers-reduced-motion: no-preference) {
+    .nav-link, .btn, .bbtn, .menu-toggle { transition: background-color .18s ease, color .18s ease; }
+}
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+}
