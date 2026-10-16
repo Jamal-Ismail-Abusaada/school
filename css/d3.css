@@ -1,76 +1,12 @@
-
-.d3d {
-    background-color: #FAFAFA;
-    height: 600px;
-    width: 100%;
-    display: flex;
-    text-align: right;
+.news { background: #fafafa; padding: var(--section-space) var(--page-inset); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2.5vw, 2rem); }
+.news-card { background: white; padding-block-end: var(--card-space); display: flex; flex-direction: column; align-items: start; }
+.news-card img { display: block; width: 100%; aspect-ratio: 7 / 4; object-fit: cover; }
+.news-card h5 { margin: var(--card-space) var(--card-space) .75rem; }
+.news-card h6 { margin: 0 var(--card-space) 1.5rem; }
+.news-card .btn { margin: auto var(--card-space) 0; }
+.div-h5 { font-weight: bold; }
+@media (min-width: 601px) and (max-width: 1024px) {
+    .news { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .news-card:last-child { grid-column: 1 / -1; width: calc((100% - clamp(1rem, 2.5vw, 2rem)) / 2); justify-self: center; }
 }
-
-.d3d1 {
-    height: 420px;
-    margin: 100px 10px;
-    width: 350px;
-    margin-left: 150px;
-    background-color: white;
-}
-
-.d3d1 img {
-    height: 200px;
-    width: 100%;
-    background-color: white;
-}
-
-.d3d2 {
-    height: 420px;
-    width: 343px;
-    background-color: white;
-    margin: 100px 10px;
-}
-
-.d3d2 img {
-    height: 200px;
-    width: 100%;
-    background-color: white;
-}
-
-.d3d3 {
-    height: 420px;
-    width: 343px;
-    margin: 100px 10px;
-    background-color: white;
-}
-
-.d3d3 img {
-    height: 200px;
-    width: 100%;
-    background-color: white;
-}
-
-.div-h5 {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: rgb(97, 97, 97);
-}
-
-.div-h6d3 {
-    color: rgb(134, 134, 134);
-    margin-top: 25xp;
-    margin: 20px 10px;
-}
-
-.btn {
-    padding: 8px 70px;
-    background-color: #FFF568;
-    border-radius: 40px;
-    border: none;
-    margin-right: 25px;
-}
-
-.btn:hover {
-    padding: 8px 70px;
-    background-color: #FFF568;
-    border-radius: 40px;
-    border: none;
-}
+@media (max-width: 600px) { .news { grid-template-columns: 1fr; } }
