@@ -1,8 +1,0 @@
-.hero { min-height: clamp(440px, 46vw, 640px); background: #377a76 url("../img/bgi.png") center / cover; display: grid; align-items: center; padding: var(--section-space) var(--page-inset); color: white; }
-.hero-content { width: 100%; max-width: 560px; padding: clamp(1.25rem, 3vw, 2.5rem); background: rgb(0 0 0 / 35%); border-radius: 1rem; }
-.hero h5 { margin-block: 1.5rem; }
-.hero br { display: none; }
-@media (max-width: 600px) {
-    .hero { min-height: 420px; background-position: 40% center; }
-    .hero h5 { margin-block: 1rem 1.5rem; }
-}
